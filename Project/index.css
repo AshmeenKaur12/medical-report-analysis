@@ -51,6 +51,52 @@ body {
       color: #555;
       font-style: italic;
     }
+     .faq-section {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .faq-section h2 {
+      text-align: center;
+      color:black;
+      margin-bottom: 1.5rem;
+    }
+
+    .faq {
+      margin-bottom: 1.5rem;
+    }
+     .faq h4 {
+      color:#f44336;
+      margin-bottom: 0.5rem;
+    }
+
+    .faq p {
+      margin: 0;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .disclaimer {
+      font-size: 0.85rem;
+      color: #555;
+      margin-top: 2rem;
+      background: #f0f0f0;
+      padding: 1rem;
+      border-left: 4px solid #f44336;
+    }
+     @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+
+      .faq-section {
+        padding: 1rem;
+      }
+    }
     #t{
         margin: 10px;
         
